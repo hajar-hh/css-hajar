@@ -1,0 +1,41 @@
+
+  
+  div {
+    display: block;
+    width: 100%;
+    height:150px;
+  }
+  
+  .top {
+    margin-bottom: 25px;
+    background-color: #9a54d3;
+  }
+  
+  .bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #4ecd9c;
+  }
+
+
+  /*bigger margin = total vertical margin */
+
+  div {
+    display: block;
+    width: 100%;
+    height:150px;
+  }
+
+  .img {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 100px;
+    border: 5px solid rgb(218, 69, 255);
+  }
+
+  .image {
+    height: 350px;
+    width: 300px;
+    margin-top: 250px;
+    border: 5px solid rgb(95, 87, 212);
+  }
