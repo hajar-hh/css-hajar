@@ -7,13 +7,13 @@
   }
   
   .top {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     background-color: #9a54d3;
   }
   
   .bottom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
     background-color: #4ecd9c;
   }
 
@@ -29,13 +29,13 @@
   .img {
     height: 350px;
     width: 300px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     border: 5px solid rgb(218, 69, 255);
   }
 
   .image {
     height: 350px;
     width: 300px;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     border: 5px solid rgb(95, 87, 212);
   }
