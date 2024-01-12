@@ -1,0 +1,14 @@
+.rec {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+}
+
+.one {
+    background-color: royalblue;
+}
+
+.two {
+    background-color: orange;
+    margin: 50px 50px;
+}
