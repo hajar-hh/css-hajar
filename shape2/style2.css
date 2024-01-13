@@ -10,5 +10,7 @@
 
 .two {
     background-color: orange;
-    margin: 50px 50px;
+  position: absolute;
+  top: 40px;
+  left: 60px;
 }
