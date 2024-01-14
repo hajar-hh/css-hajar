@@ -1,0 +1,458 @@
+.ol{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    background-color: red;
+}
+
+.a{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 101px;
+    left: 681px;
+    background-color: red; 
+    margin: 40px 2px;
+}
+
+.b{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 101px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px;  
+}
+
+.c{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 101px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px; 
+}
+
+.d{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 142px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.e{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 142px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.f{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 142px;
+    left: 681px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.h{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 142px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.g{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 142px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.aa{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px   
+}
+
+.bb{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.cc{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 681px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.dd{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.ee{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.ff{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 558px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.gg{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 183px;
+    left: 804px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.one{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 804px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.two{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 558px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.three{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.four{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.five{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 681px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.six{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.seven{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.eight{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 845px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.nine{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 224px;
+    left: 517px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.mm{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 804px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.nn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 558px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.vv{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.xx{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.zz{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 681px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.ss{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.jj{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.kk{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 845px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.ll{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 265px;
+    left: 517px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.mmm{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 804px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.nnn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 558px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.vvv{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.xxx{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 640px;
+    background-color: red; 
+    margin: 40px 2px  
+}
+
+.sss{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 722px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.jjj{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.kkk{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 845px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.lll{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 306px;
+    left: 517px;
+    background-color: red; 
+    margin: 40px 2px
+}
+
+.mmmm{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 347px;
+    left: 804px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.nnnn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 347px;
+    left: 763px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.vvvv{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 347px;
+    left: 599px;
+    background-color: red; 
+    margin: 40px 2px 
+}
+
+.xxxx{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 347px;
+    left: 558px;
+    background-color: red; 
+    margin: 40px 2px
+}
