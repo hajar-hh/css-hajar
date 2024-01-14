@@ -5,18 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkerboard Page</title>
     <style>
-/* main{
-     display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translate(-50%,-50%);
-} */
-      
-        .row {
+        /* .row {
             display: flex;
             position: relative;
             top: 200px;
-            left: 500px;
+            left: 400px;
         }
         .square {
             border: 2px solid black;
@@ -28,12 +21,70 @@
         }
         .white {
             background-color: white;
-        }
+        } */
+
+        table {
+             border: 2px solid black;
+             position: absolute;
+             bottom: 50px;
+             left: 450px;
+            }
+
+          td {
+              width: 100px;
+             height: 100px;
+             }
+
+             .black {
+                  background-color: black;
+                }
+
+              .white {
+                   background-color: white;
+                }
+
+
     </style>
 </head>
 <body>
 
-<div class="row">
+    <table>
+        <tr>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+        </tr>
+        <tr>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+        </tr>
+        <tr>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+        </tr>
+        <tr>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+        </tr>
+        <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+      </table>
+
+<!-- <div class="row">
     <div class="square black"></div>
     <div class="square white"></div>
     <div class="square black"></div>
@@ -67,7 +118,7 @@
     <div class="square black"></div>
     <div class="square white"></div>
     <div class="square black"></div>
-</div>
+</div> -->
 
 </body>
 </html>
