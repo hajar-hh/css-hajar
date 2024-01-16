@@ -10,27 +10,31 @@
 
 h1{
     text-align: center;
-     color: #9838e2;
+     color: #5a2086;
     font-family: 'Rubik Burned', system-ui;
     font-size: 2rem;
-    background-color: #d0d2ee;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
 }
 
 .nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #d0d2ee;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
 }
 
-button{
-    width: 100px;
-    height: 50px;
+nav a{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    color: #5e5566;
+    text-decoration: none;
 }
 
 .imageone{
     margin-top: 0px;
-    width: 100vw;
+    width: 100%;
     height: 400px;
 }
 
@@ -94,4 +98,26 @@ p + hr {
     color: aliceblue; 
 }
 
+figure img {
+    width: 100px;
+    height: 100px;
+    border: #e5b4e6 solid 3px;
+    box-shadow: 0px 0px 20px rgb(67, 57, 70);
+    border-radius: 50%;
+}
 
+figure figcaption{
+    color: #6f1caf;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-family: 'Amiri', serif;
+}
+
+.parent {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
