@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+     color: #9838e2;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 2rem;
+    background-color: #d0d2ee;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d0d2ee;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+}
+
+.imageone{
+    margin-top: 0px;
+    width: 100vw;
+    height: 400px;
+}
+
+
+
+.para{
+    position: absolute;
+    top: 135px;
+    left: 350px;
+    font-size: 3rem;
+    font-family: 'Amiri', serif;
+    color: #8a35cc;
+}
+
+.paraa{
+    position: absolute;
+    top: 235px;
+    left: 175px;
+    font-size: 3rem;
+    font-family: 'Vibes', system-ui;
+    color: #8a35cc; 
+}
+
+p + hr {
+    position: absolute;
+    top: 320px;
+    left: 175px;
+    border-radius: 100px;
+    width: 200px;
+    height: 6px;
+    background-color: #583572;
+}
+
+.navone{
+    width: 8rem;
+    height: 4rem;
+    background-color: #d7a1e7;
+    position: absolute;
+    top: 338px;
+    left: 195px; 
+    font-family: 'Amiri', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+.navtwo{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #670485;
+    position: absolute;
+    top: 404px;
+    left: 195px; 
+    font-family: 'Amiri', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: aliceblue; 
+}
+
+
