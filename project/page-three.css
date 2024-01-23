@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+     color: #862064;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 2rem;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
+}
+
+nav a{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    color: #5e5566;
+    text-decoration: none;
+}
+/* ------------------------ */
+/* main{
+justify-content: flex-start;
+} */
+h3{
+    text-align: center;
+    color: #862064;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+aside{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    border: 2px solid red;
+}
+
+aside div{
+    width: 300px;
+    height: 490px;
+    float: right;
+    margin: 5px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dady{
+    width: 300px;
+    height: 490px;
+    background-color: red;
+    background-image: url(../image/iridescent-abstract-backgrounds-2_result.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+article {
+    width: 250px;
+    height: 450px;
+    border: 1px solid #e0ceda;
+    z-index: 1;
+    background-color: white;
+}
+
+article img {
+    width: 100%;
+    height: 250px;
+}
+
+img + h2{
+    color: #6c488b;
+    text-align: center;
+    text-shadow: 2px 2px 5px #ecb4e1;
+}
+
+.color{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rang{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.information{
+    color: #862064;
+    text-align: center;
+}
+
+.ta{
+    color: rgb(111, 0, 255);
+    text-align: center;
+    font-size: large;
+}
+
+.ho{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: #babbf6;
+    background-color: #5e5566;
+    width: 50px;
+}
