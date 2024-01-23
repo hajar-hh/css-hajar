@@ -99,6 +99,22 @@ p + hr {
 }
 
 /* ------------------ */
+h3{
+    color: #971d6f;
+    text-align: center;
+    font-family: 'Vibes', system-ui;
+    font-size: 45px;
+}
+
+h3 + hr{
+align-items: center;
+width: 300px;
+height: 5px;
+background-color: rgb(195, 178, 199);
+position: absolute;
+right: 530px;
+
+}
 section{
     display: flex;
     justify-content: space-around;
@@ -110,8 +126,8 @@ section{
 }
 
 section article {
-    width: 25%;
-    height: 470px;
+    width: 27%;
+    height: 480px;
     padding: 1rem;
     border: 2px solid rgb(206, 188, 209);
     margin: 20px;
@@ -192,3 +208,51 @@ button{
     color: #5e5566;
    
 }
+
+section article:hover{
+    box-shadow: 0 0 5px #b66793,
+    0 0 10px #fc2eb7,
+    0 0 20px #fd52a7,
+    0 0 30px #d61b4a;
+}
+
+/* ------------------ */
+.mom{
+    display: flex; 
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(90deg, #f39dd5, #fcf193, #aeecb9, #bbaef8, #c7a7f1 );
+    border-radius: 30%;
+}
+.end{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.center{
+    margin-top: 30px;
+    display: inline;
+}
+
+.left{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.picture{
+    width: 400px;
+    height: 280px;
+}
+
+.picture-2{
+    width: 500px;
+    height: 584px;
+}
+
