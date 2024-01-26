@@ -69,9 +69,10 @@ input{
 
 .dady{
     width: 300px;
-    height: 490px;
+    height: 450px;
     background-color: red;
     background-image: url(../image/iridescent-abstract-backgrounds-2_result.jpg);
+    border-radius: 100px 100px 100px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +82,8 @@ input{
 article {
     width: 250px;
     height: 450px;
-    border: 1px solid #e0ceda;
+    border: 5px solid #e0ceda;
+    /* border-radius: 70px; */
     z-index: 1;
     background-color: white;
 }
