@@ -8,107 +8,149 @@
     box-sizing: border-box;
 }
 
-header{
+h1{
+    text-align: center;
+     color: #208625;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 2rem;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(204, 235, 66);
+    }
+
+.nav{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(220, 247, 104);
+    justify-content: right;
+    background-color: rgb(204, 235, 66);
 }
 
-.dad{
-width: 350px;
-height: 350px;
-background-color: rgba(226, 129, 205, 0.89);
+nav a{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    color: #5e5566;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header img{
+    width: 100%;
+}
+/* header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(204, 235, 66);
+    width: 100%;
+} */
+
+/* .dad{
+width: 400px;
+height: 400px;
+background-color: rgba(209, 165, 211, 0.89);
 border-radius: 50%;
 margin: 25px;
 display: flex;
 justify-content: flex-end;
 margin-right: 250px;
-}
+} */
 
-.mom{
-    width: 350px;
-    height: 500px;
-    /* margin-top: 0px; */
+/* .mom{
+    /* width: 500px;
+    height: 500px; 
+    margin-top: 50px;
     margin-left: 150px;
-}
+} */
+
+/* h2{
+    font-family: 'Rubik Burned', system-ui;
+    color: rgb(112, 122, 66);
+    margin-top: 0px;
+    font-size: 50px;
+    margin-left: 400px;
+} */
+
+/* header p{
+    font-family: 'Amiri', serif;
+    color: rgb(75, 97, 224);
+    font-size: 2rem;
+} */
+
+
+
+
+
+
+
 
 h2{
-    font-family: 'Rubik Burned', system-ui;
-    color: blue;
-    margin-top: 0px;
-}
-
-header p{
+    text-align: center;
+    margin-bottom:20px ;
     font-family: 'Amiri', serif;
-    color: brown;
-    font-size: 2rem;
+    color: rgb(34, 150, 34);
+    font-weight: bold;
+    text-shadow: 2px 8px 10px rgba(114, 168, 100, 0.5);
+    font-size: 40px;
 }
 
 section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;  
 }
 
 .article-one{
-    border: 1px solid palevioletred;
+    border: 10px groove rgb(58, 224, 24);
     margin: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 600px;
-    height: 240px;
+    width: 49%;
+    background: rgba(212, 228, 224, 0.5);
 }
 
-.article-one h3{
-    text-align: center;
-    font-family: 'Amiri', serif;
-    margin: 5px;
-    color: #fc2efc;
-}
 
 .article-one img{
-    width: 400px;
-    height: 200px;
+    max-width: 50%;
+    height: 50%;
 
 }
 
 .article-one p{
     text-align: center;
     margin: 10px;
-    font-size: 20px;
-    color: blueviolet;
+    font-size: 25px;
+    color: rgb(2, 70, 2);
     font-family: 'Amiri', serif;
-    /* border-left: 2px solid pink; */
 }
 
 .article-one img:nth-child(odd)
 {
-    border-left: 2px solid rgb(216, 179, 216);
+    border-left: 2px solid rgb(186, 216, 179);
     padding-left: 10px;
 }
 
 .article-one img:nth-child(even){
-    border-right: 2px solid rgb(219, 181, 219);
+    border-right: 2px solid rgb(187, 219, 181);
     padding-right: 10px;
 }
 
 .section-2{
     display: flex;
     justify-content: space-around;
-margin: 20px;
+    margin: 20px;
 }
 
 .section-2 img{
 width: 220px;
 height: 200px;
-border: 1px solid pink;
+border: 1px solid rgb(164, 184, 165);
 border-radius: 10px;
-background-color: #e4b8e4;
-box-shadow: 5px 5px 5px 5px rgb(209, 173, 185);
+background: linear-gradient(90deg, #b3f2cb, #a8e68e, #fff );
+box-shadow: 5px 5px 5px 5px rgb(71, 85, 78);
 }
 
 figure figcaption{
-    color: #af1c96;
+    color: #143806;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -117,10 +159,10 @@ figure figcaption{
 }
 
 .section-2 img:hover{
-    box-shadow: 0 0 5px #ff21ff,
-    0 0 25px #fc2efc,
-    0 0 50px #fd52fd,
-    0 0 200px #d61bd6;
+    box-shadow: 0 0 5px #55ff21,
+    0 0 25px #2efc2e,
+    0 0 50px #52fd99,
+    0 0 100px #47d61b;
 }
 
 .section-3{
@@ -130,13 +172,14 @@ figure figcaption{
 }
 
 table,th,td{ 
-       border: 2px solid purple;
+       border: 2px solid rgb(0, 128, 79);
     width: 500px;
     text-align: center;
     padding: 3px;
     margin: 10px;
     background-image: url(../image/png-transparent-cartoon-cosmetics-cartoons-cosmetics-toiletries-painted-thumbnail-removebg-preview.png);
     background-size:auto;
+    font-size: 1rem;
 }
 
 thead{
@@ -144,7 +187,7 @@ thead{
 }
 
 td:hover{
-    background-color:#ce95c4;
+    background-color:#95cea6;
     color:#fff;
    }
 
@@ -166,8 +209,8 @@ td:hover{
   }
   
   footer {
-    background-color: #f5f5f5;
-    color: #856182;
+    background-color: #d9f1d9;
+    color: #716185;
     padding: 40px 0;
   }
   

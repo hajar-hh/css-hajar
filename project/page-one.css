@@ -20,8 +20,9 @@ h1{
 
 .nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
+    width: 100%;
 }
 
 nav a{
@@ -32,12 +33,21 @@ nav a{
     text-decoration: none;
 }
 
-.imageone{
-    margin-top: 0px;
-    width: 100%;
-    height: 400px;
+header img{
+width: 100%;
 }
 
+/* .container{
+    display: flex;
+    justify-content: right;
+    background: linear-gradient(90deg, #f2b3dc, #ecb4e1, #d6b7ee, #c4baf4, #babbf6 );
+}
+
+
+.divpara{
+    display: flex;
+    justify-content: left;
+}
 
 
 .para{
@@ -96,17 +106,17 @@ p + hr {
     justify-content: center;
     font-size: 2rem;
     color: aliceblue; 
-}
+} */
 
 figure img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: #e5b4e6 solid 3px;
     box-shadow: 0px 0px 20px rgb(67, 57, 70);
     border-radius: 50%;
 }
 
-div img:hover{
+figure img:hover{
     box-shadow: 0 0 5px #ff21ff,
     0 0 25px #fc2efc,
     0 0 50px #fd52fd,
@@ -127,22 +137,23 @@ figure figcaption{
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    flex-wrap: wrap;
 }
 
 .section-1{
-    /* background-image: url(../image/iridescent-abstract-backgrounds-3_result.jpg);
-    background-size: 100%; */
     display: flex;
     justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
     border: 3px solid #cbb8da;
     box-shadow: 0px 0px 30px rgb(67, 57, 70);
-    height: 460px;
+    width: 100%;
 }
 
 
 section article{
             width: 30%;
-            height: 150px;
+            /* height: 150px; */
             padding: 1rem;
             border: 2px solid rgb(165, 216, 236);
             border-radius: 10px 100px / 120px;;
@@ -150,13 +161,126 @@ section article{
             font-family: 'Amiri', serif;
             color: #83609e;
             font-size: 20px;
-            background-image: url(../image/iridescent-abstract-backgrounds-3_result.jpg);
+            background-color: #c4a6bc;
             box-shadow: 0px 0px 30px rgb(160, 187, 218);
 }
 
 section img {
     box-shadow: 10px 0px 30px rgb(234, 223, 238);
     border: solid 1px #babbf6;
-    border-radius: 10px 100px / 120px;;
+    border-radius: 10px 100px / 120px;
+    width: 100%;
+    height: 200px;
 }
 
+.top{
+    background-color: #c4a6bc;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.top a{
+    text-decoration: none;
+    color: #716185;
+
+}
+
+/* footer */
+.container {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #c4a6bc;
+    color: #716185;
+    padding: 40px 0;
+  }
+  
+  .footer__columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer__column {
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+
+
+/* @media max-width(900px) {
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .container img{
+        width: 50%;
+        height: 50%;
+        float: right;
+    }
+
+    .divpara{
+        display: none;
+    }
+}
+
+
+
+@media max-width (700px){
+    nav.nav{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+   .section-1 article{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1rem;
+        color: black;
+    }
+
+    .divpara{
+        display: none;
+    }
+}
+ */
