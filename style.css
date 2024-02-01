@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.article2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.article3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+
+
+
+.mom{
+    border: 2px solid rgb(6, 104, 66);
+    background-color: rgb(231, 235, 233);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.back{
+    background-color: rgba(74, 143, 104, 0.671);
+    width: 70%;
+    height: 70%;
+}
+
+.tarnsform{
+    background-color: rgba(0, 248, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transition-timing-function: linear;
+}
+
+
+
+
+
+
+.one:hover{
+    transform: rotate(50deg);
+}
+    
+.two:hover{
+    transform: rotatex(40deg);
+}
+
+.three:hover{
+    transform: rotateY(40deg);
+}
+
+.four:hover{
+    transform: scale(1.75);
+}
+
+.five:hover{
+    transform: scaleX(1.5);
+}
+
+.six:hover{
+    transform: scaleY(1.5);
+}
+
+.seven:hover{
+    transform: skewX(40deg);
+}
+
+.eight:hover{
+    transform: skewY(40deg);
+}
+
+.nine:hover{
+    transform: translate(50px, 50px);
+}
+
+.ten:hover{
+    transform: translate(50px);
+}
+
+.eleven:hover{
+    transform: translateY(50px);
+}
+
+.twelve:hover{
+    transform: skewY(50deg) scaleX(2) scaleY(2);
+    /* transform: skewY(40deg) translate(20px, -35px) scale(1.5,1.9); */
+}
+
+.thirteen:hover{
+    transform: perspective(300px) rotatey(45deg);
+}
+
+.fourteen:hover{
+    transform: perspective(300px) rotateX(45deg);
+}
+
+.fiveteen:hover{
+    transform-origin: top right;
+    transform: rotate(50deg);
+}
+
+.sixteen:hover{
+    transform-origin: bottom left;
+    transform: rotate(50deg);
+}
+
+.seventeen:hover{
+    transform: perspective(300px) rotatex(20deg);
+    transform-origin: bottom;
+
+}
+
+.eightteen:hover{
+    transform: perspective(500px) rotatex(70deg);
+    transform-origin: top;
+}
+
+.nineteen:hover{
+    transform: perspective(500px) rotatey(40deg);
+    transform-origin: left;
+}
+
+.twenty:hover{
+    transform: scalex(2);
+    transform-origin: left;
+}
+
+.twentyone:hover{
+    transform: scalex(2);
+    transform-origin: right;
+}
+
+.twentytwo:hover{
+    transform: scaley(2) scaleX(2);
+    transform-origin: bottom left;
+}
+
+.twentythree:hover{
+    transform: scaley(1.5) scaleX(1.5);
+    transform-origin: top right; 
+}
+
+.twentyfour:hover{
+    transform: perspective(500px) rotatey(70deg);
+    transform-origin: right;
+}
+
+.twentyfive:hover{
+    transform: scaley(2);
+    transform-origin: top;
+}
+
+.twentysix:hover{
+    transform: scaley(2);
+    transform-origin: bottom;
+}
