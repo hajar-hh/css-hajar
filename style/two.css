@@ -125,6 +125,7 @@ h2{
 .section5 img{
     width: 350px;
     height: 300px;
+    border-radius: 50% 50% 0 0;
 }
 
 .section5 .left{
@@ -151,36 +152,40 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1000px){
     .section2{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        text-align: center;
     } 
 
     .section2 .article2{
         display: none;
     }
 
+    .section2 .article3{
+        width: 100%;
+    }
+
     .section4 .article5{
         display: none;
+    }
+
+    .article4{
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .section5 .left{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .section5 img{
+        width: 250px;
+        height: 200px;
     }
 }
 

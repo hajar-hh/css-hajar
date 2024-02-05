@@ -35,7 +35,7 @@ h2{
 
 .section-1 article{
     width: 20vw;
-    height: 100vh;
+    height: 70vh;
     border: 1px solid #e9ce95;
     margin: 20px;
     border-radius: 50% 50% 0% 0%;
@@ -60,8 +60,22 @@ article h3, p, a{
     text-align: center;
     justify-content: center;
     font-family: 'Amiri', serif;
-    font-size: 1rem;
+    font-size: .80rem;
+    color: #813b13;
 }
+
+.section-1 a{
+    text-decoration: none;
+    color: #cf5006;
+    transition: all .25s;
+}
+
+.section-1 a:hover{
+     transform: scale(1.2);
+     text-shadow: 1px 1px #b86833;
+    }
+
+/* -------------------------------- */
 
 .section-2{
     display: flex;
@@ -81,6 +95,11 @@ align-items: center;
 margin-top: 100px;
 }
 
+.one p{
+    color: rgb(102, 66, 49);
+    font-size: 1rem;
+}
+
 .two{
    width: 50%; 
    height: 450px;
@@ -97,7 +116,7 @@ margin-top: 100px;
 
 .h3{
     font-family: 'Comfortaa', sans-serif;
-    color: #bda470;
+    color: #bba066;
 }
 
 button{
@@ -107,7 +126,16 @@ button{
     font-size: 1rem;
     width: 90px;
     height: 40px;
+    transition: all .25s;
 }
+
+button:hover{
+    transform: scale(.75);
+    border-radius: 10%;
+    background-color: #b8ab8e;
+}
+
+/* -------------------------------------------- */
 
 .section-3{
     background-color: #ecd29d81;
@@ -116,6 +144,7 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+
 
 .section-3 img{
     width: 250px;
@@ -155,7 +184,7 @@ figure figcaption{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 400px;
+    height: 300px;
 }
 
 .section-4 article{
@@ -178,6 +207,21 @@ figure figcaption{
 .section-4 a:hover{
     transform: scale(.75);
     background-color: #ffe29d42;
+    box-shadow:  3px 10px 5px rgb(100, 98, 100);
+}
+
+figure{
+    text-align: center;
+}
+
+figure button{
+    width: 60px;
+    transition: all .5s;
+}
+
+figure button:hover{
+    transform: scale(.75);
+    background-color: #b8a982da;
     box-shadow:  3px 10px 5px rgb(100, 98, 100);
 }
 
