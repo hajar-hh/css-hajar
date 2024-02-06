@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+nav a{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    text-decoration: none;
+    float: right;
+    color: brown;
+}
+ /* --------------------------------- */
+
 .section1{
     background-image: url(../image.three/1.jpeg);
     background-size: 400px 400px ;
@@ -150,6 +167,37 @@ figure{
     box-shadow:  3px 10px 5px rgb(100, 98, 100);
 }
 
+/* ------------------------- */
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #858061;
+    padding: 40px 0;
+  }
+  
+  .footer__columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer__column {
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
 
 
 
@@ -200,6 +248,15 @@ figure{
     .section3 .btn{
         width: 50px;
     }
+
+    .container{
+    }
+
+     .footer__column{
+        font-size: 20px;
+        width: 100%;
+    }
+
 }
 
 @media (max-width:500px){

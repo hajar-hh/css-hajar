@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    background-color: #d6c3b1;
+}
+
+nav a{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    text-decoration: none;
+    float: right;
+}
+
+
 header{
     display: flex;
     justify-content: center;
@@ -13,9 +29,11 @@ header{
 
 header > img{
     margin: auto;
-    width: 95vw;
+    width: 100vw;
     height: 60vh;
 }
+
+/* ------------------------------------- */
 
 h2{
     text-align: center;
@@ -225,9 +243,39 @@ figure button:hover{
     box-shadow:  3px 10px 5px rgb(100, 98, 100);
 }
 
+/* --------------------------------------- */
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #ecddba;
+    color: #858061;
+    padding: 40px 0;
+  }
+  
+  .footer__columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer__column {
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
 
-
+/* -------------------------------- */
 
 @media (max-width: 1000px){
     .section-1 article{
@@ -258,6 +306,15 @@ figure button:hover{
         width: 50%;
         height: auto;
         font-size: medium;
+    }
+
+    .container{
+        width: 50%;
+    }
+
+     .footer__column{
+        font-size: 20px;
+        width: 100%;
     }
 }
 
