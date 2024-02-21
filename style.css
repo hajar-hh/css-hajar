@@ -51,7 +51,7 @@ header .nav-list{
 
 /* btn-banner */
 .header-btn{
-    max-resolution: 70px auto 0;
+    margin: 70px auto 0;
 }
 
 .header-btn a{
@@ -103,6 +103,9 @@ header .nav-list{
     margin-left: 5%;
     padding-right: 20px;
 }
+
+
+/* section2 */
 
 .service{
     display: flex;
